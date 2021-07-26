@@ -5,10 +5,10 @@ const TextList = ({ gifs }) => {
     return <div>{items}</div>
 };
 
-const Item = ({ url }) => {
+const Item = ({ url, title }) => {
     return (
         <div>
-            <img src={url} />
+            <img src={url} alt={title} />
         </div>
     );
 };
