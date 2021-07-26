@@ -42,7 +42,7 @@ function App() {
       <h1>Animated Text Generator</h1>
       <input className='input-field' placeholder='type text here' value={text} onChange={handleInput}/>
       <button className='submit-button' onClick={handleSubmit}>Submit</button>
-      <Error isErr={err} text='Enter your input for the animator'/>
+      <Error isError={err} text='Enter your input for the animator'/>
       {results && <TextList gifs={results} />}
     </div>
   );
