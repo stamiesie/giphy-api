@@ -25,6 +25,7 @@ function App() {
     console.log(text);
 
     const fetchGifs = async () => {
+      // const res = await giphy.animate(text, {limit: 20})
       const res = await giphy.animate(text, {limit: 20})
       console.log(res.data);
       setResults(res.data);
