@@ -1,3 +1,5 @@
+import React from 'react';
+
 const TextList = ({ gifs }) => {
     const items = gifs.map((itemData) => {
         return <Item url={itemData.url} />;

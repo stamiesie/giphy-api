@@ -1,3 +1,4 @@
+import React from 'react';
 import { GiphyFetch } from '@giphy/js-fetch-api';
 import {useState} from 'react';
 import TextList from './components/TextList';
